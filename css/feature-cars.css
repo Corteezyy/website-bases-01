@@ -1,0 +1,63 @@
+.feature-cars{
+    padding: 15px 15px 300 px 15px;
+}
+
+.feature-cars ul {
+    text-align: center;
+    list-style-type: none;
+    padding: o;
+    margin: 0;
+}
+
+
+.feature-cars li {
+    display: inline-block;
+    width:200px;
+    margin:0px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0.5px 4px 0 #cccccc;
+    transition: 0.5s;
+}
+
+.feature-cars li:hover {
+    box-shadow: 0 0.5px 20px 0 #cccccc;
+}
+
+.feature-cars .image-content {
+    overflow: hidden;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.feature-cars img {
+    max-width: 100%;
+    filter:brightness(50%);
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+
+.feature-cars li:hover img {
+    filter: brightness(100%);
+    transform:scale(1.25);
+
+}
+
+.feature-cars .content {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+ .feature-cars .content .date {
+    font-family: "Montserrat-Light";
+ }
+
+ .feature-cars .content h4 {
+     font-family: "Montserrat-Bold";
+ }
+
+ .feature-cars .content p {
+     font-family: "Montserrat-Light";
+     margin: 0;
+ }
+
