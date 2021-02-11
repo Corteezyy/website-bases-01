@@ -57,14 +57,55 @@
 
 .advertisement .column {
     width: 50%;
-    padding: 0 20px;
+    padding: 20px 20px;
 }
 
-.advertisement .content {
+.advertisement .inner-content {
+    padding:50px 0;
+}
+
+.advertisement h3 {
+    font-size: 50px;
+    font-family: "Montserrat-Black";
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.advertisement p {
+    font-size: 16px;
+    font-family: "Montserrat-Regular";
+    line-height: 1.6;
+}
+
+.advertisement button {
+    font-family: "Montserrat-Regular";
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    background-color: #000000;
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.advertisement button:hover {
+    color: #000000;
+    background-color: #FFFFFF;
     
+}
+
+.advertisement button:focus {
+    outline: none;
 }
 
 .advertisement .image {
-    
-    
+    background-image: url("./assets/images/advertisement-1.jpg");
+    background-repeat: none;
+    background-position: center center;
+    background-size: cover;  
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
