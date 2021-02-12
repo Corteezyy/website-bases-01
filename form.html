@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Testing</title>
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <style>
+            html, body {
+                height: 100%;
+            }
+            .first-name-label, .last-name-label {
+                display: block;
+                width: 100%;
+            }
+            .container {
+                display: flex;
+                height: 100%;
+                align-items: center;
+                justify-content: center;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div>
+                <h3>Form Testing</h3>
+                <label class="first-name-label" for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="First name" value=""/>
+                <label class="last-name-label" for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Last name" value=""/> 
+                <div>
+                    <input type="checkbox" id="car" name="car" value="Car"/>
+                    <label>I currently own a car.</label>
+                    <input type="checkbox" id="preowned" name="preowned" value="preowned"/>
+                    <label>My car is preowned</label>
+                </div>
+                <div>
+                        <input type="radio" id="red" name="carColor" value="red" />
+                        <label for="red">Red</label>
+                        <input type="radio" id="blue" name="carColor" value="blue" />
+                        <label for="blue">Blue</label>
+                        <input type="radio" id="yellow" name="carColor" value="yellow" />
+                        <label for="yellow">Yellow</label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
