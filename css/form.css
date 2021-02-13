@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url("../assets/fonts/Montserrat-Black.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url("../assets/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face { 
+    font-family: "Montserrat-Thin";
+    src: url("../assets/fonts/Montserrat-Thin.ttf")
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url("../assets/fonts/Montserrat-ExtraBold.ttf")
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url("../assets/fonts/Montserrat-Light.ttf")
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../assets/fonts/Montserrat-Bold.ttf")
+}
+
+.email-form {
+    padding: 50px 0;
+}
+
+.email-form .inner-container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.email-form .form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container .input-container {
+    margin-bottom: 15px;
+}
+
+.form-container input {
+    font-family: "Montserrat-Regular";
+    border: 2px solid #000000;
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 15px 20px;
+}
+
+.form-container input:focus {
+    outline: none;
+}
+
+.form-container button {
+    font-family: "Montserrat-Regular";
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    background-color: #000000;
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: 0.5s;
+}

@@ -3,9 +3,16 @@
     <head>
         <title>Form Testing</title>
         <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/form.css" />
         <style>
             html, body {
                 height: 100%;
+            }
+            h3 {
+                text-align: center;
+            }
+            p {
+                text-align: center;
             }
             .first-name-label, .last-name-label {
                 display: block;
@@ -24,24 +31,18 @@
     <body>
         <div class="container">
             <div>
-                <h3>Form Testing</h3>
-                <label class="first-name-label" for="firstName">First Name:</label>
-                <input type="text" id="firstName" name="firstName" placeholder="First name" value=""/>
-                <label class="last-name-label" for="lastName">Last Name:</label>
-                <input type="text" id="lastName" name="lastName" placeholder="Last name" value=""/> 
-                <div>
-                    <input type="checkbox" id="car" name="car" value="Car"/>
-                    <label>I currently own a car.</label>
-                    <input type="checkbox" id="preowned" name="preowned" value="preowned"/>
-                    <label>My car is preowned</label>
-                </div>
-                <div>
-                        <input type="radio" id="red" name="carColor" value="red" />
-                        <label for="red">Red</label>
-                        <input type="radio" id="blue" name="carColor" value="blue" />
-                        <label for="blue">Blue</label>
-                        <input type="radio" id="yellow" name="carColor" value="yellow" />
-                        <label for="yellow">Yellow</label>
+                <h3>Subscribe to our email list</h3>
+                <p>Get 10% off your next order.</p>
+                <div class="form-container">
+                   <div class="input-container">
+                       <input type="text" name="firstName" placeholder="First Name" value="" />
+                   </div> 
+                   <div class="input-container">
+                        <input type="text" name="emailAddress" placeholder="Email Address" value="" />
+                   </div>
+                   <div>
+                       <button>submit</button>
+                   </div>
                 </div>
             </div>
         </div>
