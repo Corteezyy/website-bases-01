@@ -1,6 +1,7 @@
 @import "./css/hero.css";
 @import "./css/feature-cars.css";
 @import "./css/form.css";
+@import "./css/footer.css";
 
 /* This is your first CSS file. This will help us give our website color and position elements where we need them. */
 
@@ -110,3 +111,4 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
