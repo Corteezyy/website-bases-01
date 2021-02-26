@@ -1,0 +1,42 @@
+.header {
+    padding: 15px 0;
+}
+
+.header .inner-container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.header .content {
+    display: flex;
+    flex-direction: row;
+}
+
+.header .column {
+    width: 50%;
+}
+
+.header .logo {
+    font-size: 18px;
+    font-family: "Montserrat-Black";
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header li {
+    font-family: "Montserrat-Regular";
+    text-transform: capitalize;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.header li:last-child {
+    padding-right: 0;
+}
