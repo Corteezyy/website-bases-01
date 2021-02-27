@@ -39,3 +39,8 @@
     border-bottom: none;
     margin: 24px 0;
 }
+
+.footer li a {
+    color: white;
+    text-decoration: none;
+}
