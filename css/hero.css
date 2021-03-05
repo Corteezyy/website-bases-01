@@ -32,6 +32,10 @@
 }
 
 @media (max-width: 600px) {
+    .hero {
+        margin-bottom: 0px;
+    }
+
     .hero .inner-container {
         padding-top: 75px;
         padding-bottom: 75px;

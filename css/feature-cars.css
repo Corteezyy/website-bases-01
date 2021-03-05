@@ -5,7 +5,7 @@
 .feature-cars ul {
     text-align: center;
     list-style-type: none;
-    padding: o;
+    padding: 0;
     margin: 0;
 }
 
@@ -61,3 +61,17 @@
      margin: 0;
  }
 
+@media (Max-width: 600px) {
+    .feature-cars{
+        padding: 50px 15px;
+    }
+
+    .feature-cars li {
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+
+    .feature-cars li:last-child {
+        margin: 0;
+    }
+}
