@@ -89,3 +89,30 @@
     cursor: pointer;
     transition: 0.5s;
 }
+
+@media (max-width: 600px) {
+    .email-form {
+        padding: 25px 0;
+    }
+
+    .email-form .inner-container {
+        width: 100%;
+    }
+
+    .email-form .form-container {
+        padding: 0 15px;
+    }
+
+    .form-container .input-container {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .form-container input {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px 25px;
+    }
+
+}
