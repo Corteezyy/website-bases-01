@@ -104,13 +104,11 @@
     }
 
     .form-container .input-container {
-        box-sizing: border-box;
         width: 100%;
         padding: 0 25px;
     }
 
     .form-container input {
-        box-sizing: border-box;
         width: 100%;
         padding: 15px 25px;
     }
