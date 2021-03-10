@@ -70,7 +70,11 @@
 
 @media (Max-width: 600px) {
     .feature-cars{
-        padding: 50px 15px;
+        padding: 30px 15px;
+    }
+
+    .feature-cars h3 {
+        margin-top: 0;
     }
 
     .feature-cars li {
