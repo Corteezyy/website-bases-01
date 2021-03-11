@@ -105,6 +105,18 @@
     border-bottom-right-radius: 10px;
 }
 
+/* Tablet Devices */
+@media (max-width: 1020px) {
+    .advertisement {
+        padding: 50px 15px;
+    }
+
+    .advertisement .inner-container {
+        width: 100%;
+    }  
+}
+
+/* Mobile Devices */
 @media (max-width: 600px) {
     .advertisement {
         padding: 25px 15px;
@@ -127,6 +139,6 @@
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 0;
-    }
-    
+    }  
 }
+
