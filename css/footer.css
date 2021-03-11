@@ -45,6 +45,15 @@
     text-decoration: none;
 }
 
+/* Tablet Devices */
+@media (max-width: 1020px) {
+    .footer .inner-container {
+        width: 100%;
+    }
+
+}
+
+/* Mobile Devices */
 @media (max-width: 600px) {
     .footer .inner-container {
         width: 100%;
