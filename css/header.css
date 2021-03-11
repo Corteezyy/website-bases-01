@@ -46,6 +46,22 @@
     text-decoration: none;
 }
 
+/* Tablet Devices */
+@media (min-width: 601px) and (max-width: 1020px) {
+    .header .inner-container {
+        width: 100%;
+    }
+
+    .header .column:first-child {
+        width: 25%;
+    }
+
+    .header .column:last-child {
+        width: 75%;
+    }
+}
+
+/* Mobile Devices */
 @media (max-width: 600px) {
     .header .inner-container {
         width: 100%;
