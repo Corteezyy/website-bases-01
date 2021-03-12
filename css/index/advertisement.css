@@ -97,7 +97,7 @@
 }
 
 .advertisement .image {
-    background-image: url("../assets/images/advertisement-1.jpg");
+    background-image: url("../../assets/images/advertisement-1.jpg");
     background-repeat: none;
     background-position: center center;
     background-size: cover;  
