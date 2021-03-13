@@ -1,12 +1,7 @@
+@import " ./css/global.css";
 @import "./css/header.css";
 @import "./css/index/hero.css";
 @import "./css/index/feature-cars.css";
 @import "./css/index/advertisement.css";
 @import "./css/index/form.css";
 @import "./css/footer.css";
-
-/* This is your first CSS file. This will help us give our website color and position elements where we need them. */
-
-* {
-    box-sizing: border-box;
-}
