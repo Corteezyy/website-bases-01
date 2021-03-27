@@ -64,12 +64,15 @@
 .feature-card {
     display: flex;
     flex-direction: row;
+    border-radius: 10px;
     box-shadow: 0 0.5px 4px 0 #cccccc;
+    margin-bottom: 72px;
+    overflow: hidden;
 }
 
 .feature-card .text{
     width: 670px;
-    padding: 25px 0;
+    padding: 74px 70px;
 }
 
 .feature-card .text .step{
@@ -104,7 +107,14 @@
 }
 
 .feature-card .image {
+    overflow: hidden;
     width: 500px;
-    padding: 25px 0;
+    height: 594px;
+    padding: 0;
+}
+
+.feature-card .image img {
+    object-fit: cover;
+    width: 100%;
 }
 
