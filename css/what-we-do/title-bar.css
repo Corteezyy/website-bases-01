@@ -1,0 +1,68 @@
+.title-bar h3 {
+    font-size: 60px;
+    font-family: "Montserrat-Bold";
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.title-bar .bread-crumbs {
+    margin-bottom: 122px;
+    text-align: center;
+}
+
+.title-bar ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.title-bar li {
+    display: inline-block;
+    opacity: 0.65;
+    font-size: 14px;
+    font-family: "Montserrat-Regular";
+    color: black;
+}
+
+.title-bar li.active {
+    opacity: 1;
+    font-family: "Montserrat-Bold";
+}
+
+.title-bar li::after {
+    content: ' >';
+}
+
+.title-bar li:last-child::after {
+    content: '';
+}
+
+.title-bar .text {
+    margin: 0 auto;
+    width: 770px;
+}
+
+.title-bar p {
+    font-size: 14px;
+    font-family: "Montserrat-Regular";
+    text-align: center;
+    line-height: 24px;
+    margin: 0 0 72px 0;
+}
+
+@media (Max-width: 600px) {
+    .title-bar h3 {
+        font-size: 30px;
+    }
+
+    .title-bar .bread-crumbs {
+        margin-bottom: 25px;
+    }
+
+    .title-bar .text {
+        width: 100%;
+    }
+
+}
