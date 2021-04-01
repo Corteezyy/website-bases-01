@@ -9,6 +9,7 @@
     width: 1170px;
 }
 
+/* Mobile Devices */
 @media (Max-width: 600px) {
     .container {
         width: 100%;

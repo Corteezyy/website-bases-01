@@ -52,6 +52,7 @@
     margin: 0 0 72px 0;
 }
 
+/* Mobile Devices */
 @media (Max-width: 600px) {
     .title-bar h3 {
         font-size: 30px;
