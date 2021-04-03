@@ -1,0 +1,17 @@
+@import '../global.css';
+@import '../header.css';
+@import '../footer.css';
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+    padding: 62px 0;
+}
+
+iframe {
+    width: 500px;
+    height: 500px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px black;
+}
