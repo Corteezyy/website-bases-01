@@ -2,7 +2,7 @@
 @import '../header.css';
 @import '../footer.css';
 
-.hero {
+#contact .hero {
     width: 100%;
     height: 729px;
     background-image: url('../../assets/images/contact-hero.jpg');
@@ -11,17 +11,21 @@
     background-repeat: no-repeat;
 }
 
-.container {
+#contact .container {
     margin: 0 auto;
     width: 1170px;
     padding: 62px 0;
 }
 
-.container .heading {
+#contact .heading {
     margin-bottom: 36px;
 }
 
-.container .heading h3 {
+#contact .contact-details {
+    margin-bottom: 62px;
+}
+
+#contact .contact-details .heading h3 {
     margin: 0;
     font-size: 30px;
     font-family: "Montserrat-Bold";
@@ -29,11 +33,23 @@
     color: #000000;
 }
 
-.container p {
+#contact .contact-details p {
     margin: 0;
     width: 570px;
     font-size: 14px;
     font-family: "Montserrat-Regular";
     line-height: 26px;
     color: #999999;
+}
+
+#contact .contact-options {
+    margin-bottom: 52px;
+}
+
+#contact .contact-options ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
