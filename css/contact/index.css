@@ -53,3 +53,39 @@
     margin: 0;
     padding: 0;
 }
+
+#contact .contact-options ul li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .contact-options ul li .column-inner-container {
+    width: 250px;
+}
+
+#contact .contact-options ul .icon {
+    margin-bottom: 28px;
+}
+
+#contact .contact-options ul .title {
+    font-size: 14px;
+    font-family: "Montserrat-Bold";
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+#contact .contact-options ul .info {
+    font-size: 13px;
+    font-family: "Montserrat-Regular";
+    text-transform: capitalize;
+    margin-bottom: 14px;
+    color: #666666;
+}
+
+#contact .contact-options ul .lowercase {
+    text-transform: lowercase !important;
+}
