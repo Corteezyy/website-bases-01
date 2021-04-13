@@ -95,3 +95,12 @@
 #contact .contact-options ul .lowercase {
     text-transform: lowercase !important;
 }
+
+#contact .contact-form .row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#contact .contact-form .row1 input {
+    
+}
