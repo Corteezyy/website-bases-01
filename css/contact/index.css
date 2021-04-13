@@ -58,8 +58,14 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 225px;
     justify-content: center;
     align-items: center;
+    border-right: 1px solid #e5e5e5;
+}
+
+#contact .contact-options ul li:last-child {
+    border-right: none;
 }
 
 #contact .contact-options ul li .column-inner-container {
