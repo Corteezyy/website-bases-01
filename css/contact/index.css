@@ -114,8 +114,8 @@
     border-bottom: 1px solid #e5e5e5;
 }
 
-#contact .contact-form .row input:focus  {
-    border-bottom: 1px solid #333333;
+#contact .contact-form .row .input:focus-within  {
+    border-bottom: 1px solid #333333 !important;
 }
 
 #contact .contact-form .row input {
@@ -128,7 +128,42 @@
     outline: none;
 }
 
+#contact .contact-form .row textarea {
+    width: 100%;
+    height: 156px;
+    font-size: 14px;
+    font-family: "Montserrat-Regular";
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #e5e5e5;
+    resize: none;
+}
 
-/* #contact .contact-form .row1 .subject-container input {
-    margin-right: 0;
-} */
+#contact .contact-form .row textarea:focus {
+    border-bottom: 1px solid #333333;
+}
+
+#contact .contact-form .row button {
+    font-size: 14px;
+    font-family: "Montserrat-Bold";
+    color: #000000;
+    text-transform: uppercase;
+    padding: 0 0 12px 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #333333;
+    cursor: pointer;
+}
+
+#contact .contact-map {
+    height: 688px;
+}
+
+#contact .contact-map .map {
+    width: 100%;
+    height: 100%;
+}
