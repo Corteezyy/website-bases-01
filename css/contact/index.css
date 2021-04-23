@@ -1,5 +1,10 @@
 @import '../global.css';
 @import '../header.css';
+@import './hero.css';
+@import './contact-details.css';
+@import './contact-options.css';
+@import './contact-form.css';
+@import './contact-map.css';
 @import '../footer.css';
 
 /* Utility Styles */
@@ -10,160 +15,16 @@
 
 *{box-sizing: border-box;}
 
-#contact .hero {
-    width: 100%;
-    height: 729px;
-    background-image: url('../../assets/images/contact-hero.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
 #contact .container {
     margin: 0 auto;
     width: 1170px;
     padding: 62px 0;
 }
 
-#contact .heading {
-    margin-bottom: 36px;
-}
-
-#contact .contact-details {
-    margin-bottom: 62px;
-}
-
-#contact .contact-details .heading h3 {
-    margin: 0;
-    font-size: 30px;
-    font-family: "Montserrat-Bold";
-    text-transform: capitalize;
-    color: #000000;
-}
-
-#contact .contact-details p {
-    margin: 0;
-    width: 570px;
-    font-size: 14px;
-    font-family: "Montserrat-Regular";
-    line-height: 26px;
-    color: #999999;
-}
-
-#contact .contact-options {
-    margin-bottom: 52px;
-}
-
-#contact .contact-options ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#contact .contact-options ul li {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 225px;
-    justify-content: center;
-    align-items: center;
-    border-right: 1px solid #e5e5e5;
-}
-
-#contact .contact-options ul li:last-child {
-    border-right: none;
-}
-
-#contact .contact-options ul li .column-inner-container {
-    width: 250px;
-}
-
-#contact .contact-options ul .icon {
-    margin-bottom: 28px;
-}
-
-#contact .contact-options ul .title {
-    font-size: 14px;
-    font-family: "Montserrat-Bold";
-    text-transform: uppercase;
-    color: #000000;
-    margin-bottom: 20px;
-}
-
-#contact .contact-options ul .info {
-    font-size: 13px;
-    font-family: "Montserrat-Regular";
-    text-transform: capitalize;
-    margin-bottom: 14px;
-    color: #666666;
-}
-
-#contact .contact-options ul .lowercase {
-    text-transform: lowercase !important;
-}
-
-#contact .contact-form .row {
-    margin-bottom: 42px;
-}
-
-#contact .contact-form .row .input {
-    margin-right: 30px;
-    padding: 16px 0 16px 0;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-#contact .contact-form .row .input:focus-within  {
-    border-bottom: 1px solid #333333 !important;
-}
-
-#contact .contact-form .row input {
-    width: 370px;
-    font-size: 14px;
-    font-family: "Montserrat-Regular";
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
-}
-
-#contact .contact-form .row textarea {
-    width: 100%;
-    height: 156px;
-    font-size: 14px;
-    font-family: "Montserrat-Regular";
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #e5e5e5;
-    resize: none;
-}
-
-#contact .contact-form .row textarea:focus {
-    border-bottom: 1px solid #333333;
-}
-
-#contact .contact-form .row button {
-    font-size: 14px;
-    font-family: "Montserrat-Bold";
-    color: #000000;
-    text-transform: uppercase;
-    padding: 0 0 12px 0;
-    margin: 0;
-    border: 0;
-    outline: 0;
-    background-color: transparent;
-    border-bottom: 1px solid #333333;
-    cursor: pointer;
-}
-
-#contact .contact-map {
-    height: 688px;
-}
-
-#contact .contact-map .map {
-    width: 100%;
-    height: 100%;
+/* Mobile */
+@media (max-width: 600px) {
+    #contact .container {
+        width: 100%;
+        padding: 62px 15px;
+    }
 }

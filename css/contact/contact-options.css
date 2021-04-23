@@ -1,0 +1,65 @@
+#contact .contact-options {
+    margin-bottom: 52px;
+}
+
+#contact .contact-options ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contact .contact-options ul li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 225px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #e5e5e5;
+}
+
+#contact .contact-options ul li:last-child {
+    border-right: none;
+}
+
+#contact .contact-options ul li .column-inner-container {
+    width: 250px;
+}
+
+#contact .contact-options ul .icon {
+    margin-bottom: 28px;
+}
+
+#contact .contact-options ul .title {
+    font-size: 14px;
+    font-family: "Montserrat-Bold";
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+#contact .contact-options ul .info {
+    font-size: 13px;
+    font-family: "Montserrat-Regular";
+    text-transform: capitalize;
+    margin-bottom: 14px;
+    color: #666666;
+}
+
+#contact .contact-options ul .lowercase {
+    text-transform: lowercase !important;
+}
+
+/* Mobile Device */
+@media (max-width: 600px) {
+    #contact .contact-options ul {
+        flex-direction: column;
+    }
+
+    #contact .contact-options ul li .column-inner-container {
+        width: 100%;
+        text-align: center;
+    }
+}

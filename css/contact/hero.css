@@ -1,0 +1,8 @@
+#contact .hero {
+    width: 100%;
+    height: 729px;
+    background-image: url('../../assets/images/contact-hero.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

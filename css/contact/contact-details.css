@@ -1,0 +1,32 @@
+#contact .heading {
+    margin-bottom: 36px;
+}
+
+#contact .contact-details {
+    margin-bottom: 62px;
+}
+
+#contact .contact-details .heading h3 {
+    margin: 0;
+    font-size: 30px;
+    font-family: "Montserrat-Bold";
+    text-transform: capitalize;
+    color: #000000;
+}
+
+#contact .contact-details p {
+    margin: 0;
+    width: 570px;
+    font-size: 14px;
+    font-family: "Montserrat-Regular";
+    line-height: 26px;
+    color: #999999;
+}
+
+/* mobile device */
+@media (max-width: 600px) {
+    #contact .contact-details p {
+        width: 100%;
+    }
+
+}
