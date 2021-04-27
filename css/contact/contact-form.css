@@ -68,4 +68,8 @@
         width: 100%;
     }
 
+    #contact .contact-form .row .input .subject-container {
+        margin-bottom: 0;
+    }
+
 }
