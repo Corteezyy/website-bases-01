@@ -50,8 +50,12 @@
     flex-direction: row;
 }
 
-#company .main .column {
-    width: 50%;
+#company .main .column-1 {
+    width: 500px;
+}
+
+#company .main .column-2 {
+    width: 100%;
 }
 
 #company .main .image {
@@ -61,4 +65,35 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+#company .main .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#company .main .content-container .inner-container {
+    width: 470px;
+}
+
+#company .main .content-container h3 {
+    font-size: 48px;
+    font-family: 'Montserrat-Bold';
+    text-transform: capitalize;
+    color: #000000;
+    margin: 0 0 86px 0;
+}
+
+#company .main .content-container p {
+    font-size: 14px;
+    font-family: 'Montserrat-Regular';
+    line-height: 28px;
+    color: #999999;
+    margin: 0 0 42px 0;
+}
+
+#company .main .content-container .signature {
+    width: 100%;
 }
