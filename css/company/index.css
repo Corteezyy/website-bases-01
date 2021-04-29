@@ -48,6 +48,7 @@
 #company .main {
     display: flex;
     flex-direction: row;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25) ;
 }
 
 #company .main .column-1 {
@@ -72,10 +73,15 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    background-color: #ffffff;
 }
 
 #company .main .content-container .inner-container {
     width: 470px;
+}
+
+#company .main .content-container .our-history {
+    margin: 0 0 42px 0;
 }
 
 #company .main .content-container h3 {
@@ -91,9 +97,54 @@
     font-family: 'Montserrat-Regular';
     line-height: 28px;
     color: #999999;
-    margin: 0 0 42px 0;
+    margin: 0 0 0 0;
 }
 
 #company .main .content-container .signature {
     width: 100%;
+    margin-bottom: 130px;
+}
+
+#company .main .content-container .why-clients-choose-us {
+    margin-bottom: 54px;
+}
+
+#company .main .content-container .why-clients-choose-us h4 {
+    font-size: 13px;
+    font-family: "Montserrat-Bold";
+    text-transform: uppercase;
+    color:# #000000;
+    margin: 0 0 20px 0;
+}
+
+#company .main .content-container .why-clients-choose-us .border {
+    width: 36px;
+    height: 1px;
+    background-color: black;
+}
+
+#company .main .content-container .metrics {
+    display: flex;
+    flex-direction: row;
+}
+
+#company .main .content-container .metrics .column {
+    width: 100%;
+}
+
+#company .main .content-container .metrics .count {
+    font-size: 36px;
+    font-family: "Montserrat-Regular";
+    text-align: center;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+#company .main .content-container .metrics .text {
+    font-size: 13px;
+    font-family: "Montserrat-Regular";
+    text-transform: capitalize;
+    text-align: center;
+    color: #999999;
+
 }
