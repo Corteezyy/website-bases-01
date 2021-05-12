@@ -2,6 +2,14 @@
 @import '../header.css';
 @import '../footer.css';
 
+.text-regular {
+    font-family: "Montserrat-Regular" !important;
+}
+
+.text-color-grey {
+    color: #999999;
+}
+
 #our-work {
     background-color: #ffffff;
     padding: 136px 0;
@@ -63,8 +71,12 @@
     content: '';
 }
 
+#our-work .full-container {
+    overflow: hidden;
+}
+
 #our-work .image-carousel {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
 }
 
@@ -75,6 +87,10 @@
     margin-left: 30px;
 }
 
+#our-work .image-carousel .image:first-child {
+    margin-left: -865px;
+}
+
 #our-work .image-carousel .image:last-child {
     margin-right: 30px;
 }
@@ -82,4 +98,61 @@
 #our-work .image-carousel .image img {
     width: 100%;
     height: 100%;
+}
+
+#our-work .carousel-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 410px;
+}
+
+#our-work .carousel-details .column {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#our-work .carousel-details .heading-3 {
+    width: 285px;
+}
+
+#our-work .carousel-details h3 {
+    font-size: 36px;
+    font-family: "Montserrat- Bold";
+    line-height: 36px;
+    text-align: left;
+    color: black;
+    margin: 0;
+}
+
+#our-work .carousel-details ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#our-work .carousel-details li {
+    font-size: 14px;
+    font-family: "Montserrat-Regular";
+    line-height: 30px;
+    color: #999999;
+}
+
+#our-work .carousel-details li span {
+    font-family: "Montserrat-Bold";
+    color: #000000;
+}
+
+#our-work .carousel-content .paragraph {
+    margin: 0 0 38px 0;
+}
+
+#our-work .carousel-content p {
+    font-size: 14px;
+    font-family: "Montserrat-Bold";
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
 }
