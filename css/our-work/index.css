@@ -10,6 +10,14 @@
     color: #999999;
 }
 
+.justify-content-right {
+    justify-content: flex-end;
+}
+
+.flex {
+    display: flex;
+}
+
 #our-work {
     background-color: #ffffff;
     padding: 136px 0;
@@ -155,4 +163,45 @@
     text-align: center;
     color: #000000;
     margin: 0;
+}
+
+#our-work hr {
+    border: 1px solid #E1E1E1;
+    margin-bottom: 52px;
+}
+
+#our-work .carousel-footer-navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+#our-work .carousel-footer-navigation .column {
+    width: 50%;
+}
+
+#our-work .carousel-footer-navigation .square {
+    display: flex;
+    align-items: center;
+    width: 58px;
+    height: 58px;
+    background-color: #F2F5F5;
+    cursor: pointer;
+}
+
+#our-work .carousel-footer-navigation .square .text-prev {
+    font-size: 15px;
+    font-family: "Montserrat-Bold";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#999999;
+    margin-right: -19px;
+}
+
+#our-work .carousel-footer-navigation .square .text-right {
+    font-size: 15px;
+    font-family: "Montserrat-Bold";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#999999;
+    margin-left: -19px;
 }
