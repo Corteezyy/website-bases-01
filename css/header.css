@@ -56,6 +56,11 @@
     font-family: "Montserrat-Black";
 }
 
+.header .logo a {
+    color: #000000;
+    text-decoration: none;
+}
+
 .header ul {
     display: flex;
     flex-direction: row;

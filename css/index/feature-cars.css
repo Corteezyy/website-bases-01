@@ -10,6 +10,9 @@
 }
 
 .feature-cars ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     text-align: center;
     list-style-type: none;
     padding: 0;
@@ -18,7 +21,6 @@
 
 
 .feature-cars li {
-    display: inline-block;
     width:200px;
     margin:0px 20px;
     border-radius: 10px;
@@ -32,7 +34,7 @@
 
 .feature-cars .image-content {
     overflow: hidden;
-    height: 100px;
+    height: 200px;
     border-radius: 10px;
 }
 
